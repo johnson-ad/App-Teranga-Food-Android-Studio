@@ -23,4 +23,10 @@
         android:label="@string/menu_maps"
         tools:layout="@layout/activity_maps"/>
 
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.restoteranga.Help"
+        android:label="@string/menu_help"
+        tools:layout="@layout/fragment_help"/>
+
 </navigation>

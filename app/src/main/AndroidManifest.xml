@@ -10,6 +10,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RestoTeranga">
         <activity
+            android:name=".Refreshment_info06"
+            android:exported="false" />
+        <activity
+            android:name=".Refreshment_info05"
+            android:exported="false" />
+        <activity
+            android:name=".Refreshment_info04"
+            android:exported="false" />
+        <activity
+            android:name=".Refreshment_info03"
+            android:exported="false" />
+        <activity
+            android:name=".Refreshment_info02"
+            android:exported="false" />
+        <activity
+            android:name=".Refreshment_info01"
+            android:exported="false" />
+        <activity
+            android:name=".Dessert_info06"
+            android:exported="false" />
+        <activity
+            android:name=".Dessert_info05"
+            android:exported="false" />
+        <activity
+            android:name=".Dessert_info04"
+            android:exported="false" />
+        <activity
+            android:name=".Dessert_info03"
+            android:exported="false" />
+        <activity
+            android:name=".Dessert_info02"
+            android:exported="false" />
+        <activity
+            android:name=".Dessert_info01"
+            android:exported="false" />
+        <activity
             android:name=".MainCourse_salad06Info"
             android:exported="false" />
         <activity

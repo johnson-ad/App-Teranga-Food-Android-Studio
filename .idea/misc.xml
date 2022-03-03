@@ -4,7 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_appetizer.xml" value="0.1" />
-        <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_dessert.xml" value="0.1" />
+        <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_dessert.xml" value="0.25" />
+        <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_dessert_info01.xml" value="0.22447916666666667" />
+        <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_dessert_info02.xml" value="0.22447916666666667" />
+        <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_dessert_info03.xml" value="0.22447916666666667" />
+        <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_dessert_info04.xml" value="0.22447916666666667" />
+        <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_dessert_info05.xml" value="0.22447916666666667" />
+        <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_dessert_info06.xml" value="0.22447916666666667" />
+        <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_dessert_salad01_info.xml" value="0.21041666666666667" />
+        <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_dessert_salad01_info2.xml" value="0.21041666666666667" />
         <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_home.xml" value="0.22447916666666667" />
         <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
         <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_main_course_salad01_info.xml" value="0.1" />
@@ -15,14 +23,22 @@
         <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_main_course_salad06_info.xml" value="0.22447916666666667" />
         <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_main_crouse.xml" value="0.22447916666666667" />
         <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_refreshment.xml" value="0.1" />
-        <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_salad01_info.xml" value="0.33" />
+        <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_refreshment_info01.xml" value="0.22447916666666667" />
+        <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_refreshment_info02.xml" value="0.22447916666666667" />
+        <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_refreshment_info03.xml" value="0.22447916666666667" />
+        <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_refreshment_info04.xml" value="0.22447916666666667" />
+        <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_refreshment_info05.xml" value="0.22447916666666667" />
+        <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_refreshment_info06.xml" value="0.22447916666666667" />
+        <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_salad01_info.xml" value="0.1" />
         <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_salad02_info.xml" value="0.1" />
         <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_salad03_info.xml" value="0.25" />
         <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_salad04_info.xml" value="0.22447916666666667" />
         <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_salad05_info.xml" value="0.22447916666666667" />
         <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/activity_salad06_info.xml" value="0.22447916666666667" />
+        <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/app_bar_home.xml" value="0.22447916666666667" />
         <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/content_home.xml" value="0.22447916666666667" />
         <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/fragment_gallery.xml" value="0.22447916666666667" />
+        <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/fragment_help.xml" value="0.22447916666666667" />
         <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/fragment_menu.xml" value="0.25" />
         <entry key="..\:/ISI/RestoTeranga/app/src/main/res/layout/fragment_slideshow.xml" value="0.22447916666666667" />

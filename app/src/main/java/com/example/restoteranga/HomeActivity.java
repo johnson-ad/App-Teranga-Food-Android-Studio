@@ -1,5 +1,6 @@
 package com.example.restoteranga;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
@@ -21,7 +22,7 @@ public class HomeActivity extends AppCompatActivity
 {
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityHomeBinding binding;
-    private ImageButton home_menu;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -71,4 +72,11 @@ public class HomeActivity extends AppCompatActivity
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
+
+
+
+
+
+
+
 }
