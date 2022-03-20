@@ -8,7 +8,8 @@
 
     <!-- My personals dimensions -->
     <dimen name="all">7dp</dimen>
-    <dimen name="text_body">12dp</dimen>
+    <dimen name="alls">11dp</dimen>
+    <dimen name="text_body">14dp</dimen>
     <dimen name="text_title">18dp</dimen>
     <dimen name="padding_body">14dp</dimen>
     <dimen name="margin_body">12dp</dimen>

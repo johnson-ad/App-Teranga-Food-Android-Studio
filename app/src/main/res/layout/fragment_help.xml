@@ -3,13 +3,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Help">
+    android:orientation="vertical"
+    tools:context=".ui.help.Help">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+<Button
+    android:textSize="18sp"
+    android:id="@+id/info_TerangaFood"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Terangua Food\nYour Restaurant App"
+    android:drawableLeft="@drawable/ic_home"
+    android:layout_marginBottom="5dp"
+    />
+    <Button
+        android:textSize="18sp"
+        android:id="@+id/versionApp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
-
+        android:layout_height="wrap_content"
+        android:text="Build Version\nVersion 0.0.1"
+        android:drawableLeft="@drawable/ic_help"
+        android:layout_marginBottom="5dp"
+        />
+    <Button
+        android:textSize="18sp"
+        android:id="@+id/Email_TerangaFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email\nteranguafood@food.com"
+        android:drawableLeft="@drawable/ic_meal"
+        android:layout_marginBottom="5dp"
+        />
+    <Button
+        android:textSize="18sp"
+        android:id="@+id/Copyright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copyright\nCopyright @ 2022 Solodroid Developer All rights reserved "
+        android:drawableLeft="@drawable/ic_menu_camera"
+        android:layout_marginBottom="5dp"
+        />
+    <Button
+        android:textSize="18sp"
+        android:id="@+id/ShareTerangaFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share\nShare to your friends"
+        android:drawableLeft="@drawable/ic_menu_share"
+        android:layout_marginBottom="5dp"
+        />
+    <Button
+        android:textSize="18sp"
+        android:id="@+id/Rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate\n Give your rate and feedback"
+        android:drawableLeft="@drawable/ic_menu_share"
+        android:layout_marginBottom="5dp"
+        />
+    <Button
+        android:textSize="18sp"
+        android:id="@+id/More"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="More\nMore apps from developer"
+        android:drawableLeft="@drawable/ic_menu_manage"
+        android:layout_marginBottom="5dp"
+        />
 
 </LinearLayout>

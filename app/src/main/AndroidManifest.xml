@@ -2,90 +2,23 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.restoteranga">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.RestoTeranga">
+        android:theme="@style/Theme.RestoTeranga"
+        android:usesCleartextTraffic="true">
         <activity
-            android:name=".Refreshment_info06"
+            android:name=".model.Inscription"
             android:exported="false" />
         <activity
-            android:name=".Refreshment_info05"
-            android:exported="false" />
-        <activity
-            android:name=".Refreshment_info04"
-            android:exported="false" />
-        <activity
-            android:name=".Refreshment_info03"
-            android:exported="false" />
-        <activity
-            android:name=".Refreshment_info02"
-            android:exported="false" />
-        <activity
-            android:name=".Refreshment_info01"
-            android:exported="false" />
-        <activity
-            android:name=".Dessert_info06"
-            android:exported="false" />
-        <activity
-            android:name=".Dessert_info05"
-            android:exported="false" />
-        <activity
-            android:name=".Dessert_info04"
-            android:exported="false" />
-        <activity
-            android:name=".Dessert_info03"
-            android:exported="false" />
-        <activity
-            android:name=".Dessert_info02"
-            android:exported="false" />
-        <activity
-            android:name=".Dessert_info01"
-            android:exported="false" />
-        <activity
-            android:name=".MainCourse_salad06Info"
-            android:exported="false" />
-        <activity
-            android:name=".MainCourse_salad05Info"
-            android:exported="false" />
-        <activity
-            android:name=".MainCourse_salad04Info"
-            android:exported="false" />
-        <activity
-            android:name=".MainCourse_salad03Info"
-            android:exported="false" />
-        <activity
-            android:name=".MainCourse_salad02Info"
-            android:exported="false" />
-        <activity
-            android:name=".MainCourse_salad01Info"
-            android:exported="false" />
-        <activity
-            android:name=".Salad06Info"
-            android:exported="false" />
-        <activity
-            android:name=".Salad05Info"
-            android:exported="false" />
-        <activity
-            android:name=".Salad04Info"
-            android:exported="false" />
-        <activity
-            android:name=".Salad03Info"
-            android:exported="false" />
-        <activity
-            android:name=".Salad02Info"
-            android:exported="false" />
-        <activity
-            android:name=".Refreshment"
-            android:exported="false" />
-        <activity
-            android:name=".Dessert"
-            android:exported="false" />
-        <activity
-            android:name=".MainCrouse"
+            android:name=".model.Connexion"
             android:exported="false" />
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
@@ -100,17 +33,95 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBIVbZqL53qZcm6CDJ40_p8xvSDpD6X0dw" />
+            android:value="AIzaSyBf9P7FWxMaCtsABUSXXUu4f7_Kgpqyny4" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name=".ui.map.LocalisationFragment"
             android:exported="false"
-            android:label="@string/title_activity_maps" />
+            android:label="@string/title_activity_localisation_fragment" />
         <activity
-            android:name=".Salad01InfoActivity"
+            android:name=".ui.refreshment.Refreshment_info06"
             android:exported="false" />
         <activity
-            android:name=".AppetizerActivity"
+            android:name=".ui.refreshment.Refreshment_info05"
+            android:exported="false" />
+        <activity
+            android:name=".ui.refreshment.Refreshment_info04"
+            android:exported="false" />
+        <activity
+            android:name=".ui.refreshment.Refreshment_info03"
+            android:exported="false" />
+        <activity
+            android:name=".ui.refreshment.Refreshment_info02"
+            android:exported="false" />
+        <activity
+            android:name=".ui.refreshment.Refreshment_info01"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dessert.Dessert_info06"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dessert.Dessert_info05"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dessert.Dessert_info04"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dessert.Dessert_info03"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dessert.Dessert_info02"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dessert.Dessert_info01"
+            android:exported="false" />
+        <activity
+            android:name=".ui.mainCrouse.MainCourse_salad06Info"
+            android:exported="false" />
+        <activity
+            android:name=".ui.mainCrouse.MainCourse_salad05Info"
+            android:exported="false" />
+        <activity
+            android:name=".ui.mainCrouse.MainCourse_salad04Info"
+            android:exported="false" />
+        <activity
+            android:name=".ui.mainCrouse.MainCourse_salad03Info"
+            android:exported="false" />
+        <activity
+            android:name=".ui.mainCrouse.MainCourse_salad02Info"
+            android:exported="false" />
+        <activity
+            android:name=".ui.mainCrouse.MainCourse_salad01Info"
+            android:exported="false" />
+        <activity
+            android:name=".ui.appetizer.Salad06Info"
+            android:exported="false" />
+        <activity
+            android:name=".ui.appetizer.Salad05Info"
+            android:exported="false" />
+        <activity
+            android:name=".ui.appetizer.Salad04Info"
+            android:exported="false" />
+        <activity
+            android:name=".ui.appetizer.Salad03Info"
+            android:exported="false" />
+        <activity
+            android:name=".ui.appetizer.Salad02Info"
+            android:exported="false" />
+        <activity
+            android:name=".ui.refreshment.Refreshment"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dessert.Dessert"
+            android:exported="false" />
+        <activity
+            android:name=".ui.mainCrouse.MainCrouse"
+            android:exported="false" />
+        <activity
+            android:name=".ui.appetizer.Salad01InfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.appetizer.AppetizerActivity"
             android:exported="false" />
         <activity
             android:name=".HomeActivity"

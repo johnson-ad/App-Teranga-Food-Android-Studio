@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".model.Connexion"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connection" />
+
+
+    <EditText
+        android:layout_marginBottom="10dp"
+        android:padding="8dp"
+        android:textSize="14sp"
+        android:id="@+id/txtFirstName"
+        android:layout_marginTop="@dimen/top"
+        android:hint="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:layout_marginBottom="10dp"
+        android:padding="8dp"
+        android:textSize="14sp"
+        android:id="@+id/txtMdp"
+        android:layout_marginTop="@dimen/top"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+    <Button
+        android:background="#66AA66"
+        android:layout_marginTop="30dp"
+        android:layout_margin="@dimen/top"
+        android:layout_gravity="center"
+        android:id="@+id/btnSave"
+        android:text="Connecter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:background="#00AACC"
+        android:layout_marginTop="30dp"
+        android:layout_margin="@dimen/top"
+        android:layout_gravity="center"
+        android:id="@+id/btnInscription"
+        android:text="Inscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

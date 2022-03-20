@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tab_cart">
+        <item>
+            <item>Salade de fruit</item>
+            <item>1000 CFA</item>
+        </item>
+        <item>Pomme 1050 CFA</item>
+        <item>Orange 2200 CFA</item>
+        <item>Orange jaune 5000 CFA</item>
+        <item>Yassa 3500 CFA</item>
+        <item>Thies poisson 44000 CFA</item>
+    </string-array>
+</resources>

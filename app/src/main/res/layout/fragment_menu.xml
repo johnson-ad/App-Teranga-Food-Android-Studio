@@ -55,7 +55,7 @@
 
                 <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
+                    android:layout_height="310dp"
                     android:orientation="vertical"
                     android:layout_marginBottom="@dimen/all">
 
@@ -63,8 +63,8 @@
                         android:layout_gravity="top"
                         android:id="@+id/appetizer"
                         android:layout_width="match_parent"
-                        android:layout_height="150dp"
-                        android:background="@drawable/ic_ban"
+                        android:layout_height="250dp"
+                        android:background="@drawable/home2_desert"
                         android:scaleType="centerCrop"
                         android:layout_marginBottom="@dimen/all"
                         />
@@ -94,7 +94,7 @@
 
                 <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
+                    android:layout_height="310dp"
                     android:orientation="vertical"
                     android:layout_marginBottom="@dimen/all">
 
@@ -102,7 +102,7 @@
                         android:layout_gravity="top"
                         android:id="@+id/main_course"
                         android:layout_width="match_parent"
-                        android:layout_height="150dp"
+                        android:layout_height="250dp"
                         android:background="@drawable/ic_ban"
                         android:scaleType="centerCrop"
                         android:layout_marginBottom="@dimen/all"
@@ -133,7 +133,7 @@
 
                 <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
+                    android:layout_height="340dp"
                     android:orientation="vertical"
                     android:layout_marginBottom="@dimen/all">
 
@@ -141,9 +141,8 @@
                         android:layout_gravity="top"
                         android:id="@+id/dessert"
                         android:layout_width="match_parent"
-                        android:layout_height="150dp"
-                        android:background="@drawable/ic_ban"
-                        android:scaleType="centerCrop"
+                        android:layout_height="250dp"
+                        android:background="@drawable/dessert1"
                         android:layout_marginBottom="@dimen/all"
                         />
 
@@ -172,7 +171,7 @@
 
                 <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
+                    android:layout_height="310dp"
                     android:orientation="vertical"
                     android:layout_marginBottom="@dimen/all">
 
@@ -180,8 +179,8 @@
                         android:layout_gravity="top"
                         android:id="@+id/refreshment"
                         android:layout_width="match_parent"
-                        android:layout_height="150dp"
-                        android:background="@drawable/ic_ban"
+                        android:layout_height="250dp"
+                        android:background="@drawable/home_boison"
                         android:scaleType="centerCrop"
                         android:layout_marginBottom="@dimen/all"
                         />
@@ -200,10 +199,6 @@
                 </FrameLayout>
 
             </androidx.cardview.widget.CardView>
-
-
-
-
 
 
         </GridLayout>

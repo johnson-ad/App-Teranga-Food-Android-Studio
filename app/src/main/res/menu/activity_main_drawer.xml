@@ -12,15 +12,16 @@
             android:id="@+id/nav_meal"
             android:icon="@drawable/ic_meal"
             android:title="@string/menu_meal" />
-        <item
-            android:id="@+id/nav_order"
-            android:icon="@drawable/ic_order"
-            android:title="@string/menu_order" />
 
         <item
             android:id="@+id/nav_status"
-            android:icon="@drawable/ic_status"
+            android:icon="@drawable/status"
             android:title="@string/menu_status"/>
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Galerie" />
 
         <item
             android:id="@+id/nav_maps"
@@ -29,7 +30,7 @@
 
         <item
             android:id="@+id/nav_help"
-            android:icon="@drawable/ic_help"
+            android:icon="@drawable/help"
             android:title="@string/menu_help"/>
 
     </group>

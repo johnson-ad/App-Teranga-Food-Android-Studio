@@ -4,17 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AppetizerActivity">
+    tools:context=".ui.appetizer.AppetizerActivity">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
 
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:columnCount="2"
             android:rowCount="4">
+
 
             <!-- Separate line -->
             <androidx.cardview.widget.CardView
@@ -49,15 +51,15 @@
 
             <!-- Menu Grid -->
             <androidx.cardview.widget.CardView
-                android:layout_width="130px"
-                android:layout_height="180dp"
+                android:layout_width="130dp"
+                android:layout_height="200dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_gravity="fill"
                 app:cardCornerRadius="7dp"
                 app:cardElevation="7dp"
                 android:layout_margin="@dimen/all"
-                android:layout_marginBottom="@dimen/top">
+                android:layout_marginBottom="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -67,12 +69,12 @@
                     <Button
                         android:id="@+id/main_salde01"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/salad_01"/>
+                        android:layout_height="125dp"
+                        android:background="@drawable/main1"/>
 
                     <TextView
                         android:layout_marginLeft="@dimen/all"
-                        android:layout_marginTop="@dimen/all"
+                        android:layout_marginTop="@dimen/alls"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/text_body"
@@ -84,20 +86,21 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/text_body"
+                        android:layout_marginTop="13dp"
                         android:text="1500 FCFA"/>
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:layout_width="130px"
-                android:layout_height="180dp"
+                android:layout_width="130dp"
+                android:layout_height="200dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_gravity="fill"
                 app:cardCornerRadius="7dp"
                 app:cardElevation="7dp"
                 android:layout_margin="@dimen/all"
-                android:layout_marginBottom="@dimen/top">
+                android:layout_marginBottom="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -107,12 +110,12 @@
                     <Button
                         android:id="@+id/main_salde02"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/salad_01"/>
+                        android:layout_height="125dp"
+                        android:background="@drawable/main2"/>
 
                     <TextView
                         android:layout_marginLeft="@dimen/all"
-                        android:layout_marginTop="@dimen/all"
+                        android:layout_marginTop="@dimen/alls"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/text_body"
@@ -124,20 +127,21 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/text_body"
+                        android:layout_marginTop="13dp"
                         android:text="1500 FCFA"/>
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:layout_width="130px"
-                android:layout_height="180dp"
+                android:layout_width="130dp"
+                android:layout_height="200dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_gravity="fill"
                 app:cardCornerRadius="7dp"
                 app:cardElevation="7dp"
                 android:layout_margin="@dimen/all"
-                android:layout_marginBottom="@dimen/top">
+                android:layout_marginBottom="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -147,12 +151,12 @@
                     <Button
                         android:id="@+id/main_salde03"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/salad_01"/>
+                        android:layout_height="125dp"
+                        android:background="@drawable/main3"/>
 
                     <TextView
                         android:layout_marginLeft="@dimen/all"
-                        android:layout_marginTop="@dimen/all"
+                        android:layout_marginTop="@dimen/alls"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/text_body"
@@ -164,20 +168,21 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/text_body"
+                        android:layout_marginTop="13dp"
                         android:text="1500 FCFA"/>
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:layout_width="130px"
-                android:layout_height="180dp"
+                android:layout_width="130dp"
+                android:layout_height="200dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_gravity="fill"
                 app:cardCornerRadius="7dp"
                 app:cardElevation="7dp"
                 android:layout_margin="@dimen/all"
-                android:layout_marginBottom="@dimen/top">
+                android:layout_marginBottom="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -187,12 +192,12 @@
                     <Button
                         android:id="@+id/main_salde04"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/salad_01"/>
+                        android:layout_height="125dp"
+                        android:background="@drawable/main8"/>
 
                     <TextView
                         android:layout_marginLeft="@dimen/all"
-                        android:layout_marginTop="@dimen/all"
+                        android:layout_marginTop="@dimen/alls"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/text_body"
@@ -204,20 +209,21 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/text_body"
+                        android:layout_marginTop="13dp"
                         android:text="1500 FCFA"/>
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_width="130px"
-                android:layout_height="180dp"
+                android:layout_height="200dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_gravity="fill"
                 app:cardCornerRadius="7dp"
                 app:cardElevation="7dp"
                 android:layout_margin="@dimen/all"
-                android:layout_marginBottom="@dimen/top">
+                android:layout_marginBottom="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -227,12 +233,12 @@
                     <Button
                         android:id="@+id/main_salde05"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/salad_01"/>
+                        android:layout_height="125dp"
+                        android:background="@drawable/main6"/>
 
                     <TextView
                         android:layout_marginLeft="@dimen/all"
-                        android:layout_marginTop="@dimen/all"
+                        android:layout_marginTop="@dimen/alls"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/text_body"
@@ -244,20 +250,21 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/text_body"
+                        android:layout_marginTop="13dp"
                         android:text="1500 FCFA"/>
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:layout_width="130px"
-                android:layout_height="180dp"
+                android:layout_width="130dp"
+                android:layout_height="200dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_gravity="fill"
                 app:cardCornerRadius="7dp"
                 app:cardElevation="7dp"
                 android:layout_margin="@dimen/all"
-                android:layout_marginBottom="@dimen/top">
+                android:layout_marginBottom="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -267,12 +274,12 @@
                     <Button
                         android:id="@+id/main_salde06"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/salad_01"/>
+                        android:layout_height="125dp"
+                        android:background="@drawable/main5"/>
 
                     <TextView
                         android:layout_marginLeft="@dimen/all"
-                        android:layout_marginTop="@dimen/all"
+                        android:layout_marginTop="@dimen/alls"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/text_body"
@@ -284,6 +291,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/text_body"
+                        android:layout_marginTop="13dp"
                         android:text="1500 FCFA"/>
 
                 </LinearLayout>

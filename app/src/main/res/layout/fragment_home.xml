@@ -184,7 +184,7 @@
                         android:id="@+id/home_btn_order"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/order"/>
+                        android:src="@drawable/ic_gallery"/>
 
                     <TextView
                         android:layout_marginTop="@dimen/all"
@@ -193,7 +193,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/text_title"
-                        android:text="@string/menu_order"/>
+                        android:text="@string/menu_gallery"/>
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
